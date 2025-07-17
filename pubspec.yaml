@@ -1,0 +1,30 @@
+name: movie_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  cached_network_image: ^3.3.1
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+
+  # http: ^0.13.5
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  # shared_preferences: ^2.2.0
+  path_provider: ^2.0.11
+  glassmorphism: ^2.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
